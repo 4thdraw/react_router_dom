@@ -15,6 +15,7 @@ function App() {
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/company' element={<Company></Company>}></Route>
           <Route path='/board' element={<Board></Board>}></Route>
+          <Route path='*' element={<p>주소창확인</p>}></Route>
         </Routes>
     </BrowserRouter>
   );
