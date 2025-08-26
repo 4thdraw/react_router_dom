@@ -11,7 +11,11 @@ function App() {
   return (
     <BrowserRouter> 
         <Hd></Hd>
-
+        <Routes>          
+          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/company' element={<Company></Company>}></Route>
+          <Route path='/board' element={<Board></Board>}></Route>
+        </Routes>
     </BrowserRouter>
   );
 }
