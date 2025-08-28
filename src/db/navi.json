@@ -1,0 +1,65 @@
+{
+    "kr": {
+      "navigation": [
+        {
+          "title": "회사소개",
+          "url": "/company/ceo",
+          "subMenu": [
+            { "title": "CEO인사말", "url": "/company/ceo" },
+            { "title": "연혁", "url": "/company/history" },
+            { "title": "오시는길", "url": "/company/location" }
+          ]
+        },
+        {
+          "title": "견적문의",
+          "url": "/estimate",
+          "subMenu": []
+        },
+        {
+          "title": "쇼룸",
+          "url": "/showroom",
+          "subMenu": []
+        },
+        {
+          "title": "커뮤니티",
+          "url": "/community/notice",
+          "subMenu": [
+            { "title": "공지사항", "url": "/community/notice" },
+            { "title": "QNA", "url": "/community/qna" }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "navigation": [
+        {
+          "title": "About Us",
+          "url": "/company/ceo",
+          "subMenu": [
+            { "title": "CEO Message", "url": "/company/ceo" },
+            { "title": "History", "url": "/company/history" },
+            { "title": "Location", "url": "/company/location" }
+          ]
+        },
+        {
+          "title": "Estimate",
+          "url": "/estimate",
+          "subMenu": []
+        },
+        {
+          "title": "Showroom",
+          "url": "/showroom",
+          "subMenu": []
+        },
+        {
+          "title": "Community",
+          "url": "/community/notice",
+          "subMenu": [
+            { "title": "Notice", "url": "/community/notice" },
+            { "title": "Q&A", "url": "/community/qna" }
+          ]
+        }
+      ]
+    }
+  }
+  
