@@ -2,16 +2,16 @@ import React from 'react'
 // node_modules 안에 있는 모듈호출
 import hd from './hd.module.scss';
 // 반드시 상대경로로 진행 src폴더 내의 소스
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import navi from '../db/navi.json';
 
 
-export default function Hd() {
+export default function Hd({lang}) {
 
-  const lang = 'kr';
+  // const { lang } = useParams();
 
   return (
-    <div className={hd.hd}>
+    <div className={hd.hd} id={lang}>
       <ul className='d-flex gap-3'>
       {
 
